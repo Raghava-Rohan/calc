@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1011/1011863.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+  
+  <div class="container">
+    
+    <div class="display">
+      <input id="display" placeholder="0"/>
+      <div id="result"></div>
+    </div>
+
+    <div class="buttons">
+      <div class="rows">
+         <button id="all_clear">AC</button>
+         <button id="delete">DE</button>
+         <button id="operator">^</button>
+         <button id="operator">√</button>
+         <button id="operator">%</button>
+      </div>
+      
+      <div class="rows">
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button id="operator">/</button>
+        <button id="operator">*</button>
+      </div>
+      
+      <div class="rows">
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button id="operator">+</button>
+        <button id="operator">-</button>
+      </div>
+
+      
+        <div class="rows_2">
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          
+        </div>
+        <div class="section">
+        <div class="rows_3">
+          <button id="point">.</button>
+          <button>0</button>
+          <button>00</button>
+        </div>
+          <button id="equal">=</button>
+      </div>
+    </div>
+
+  </div>
+  <script src="./calc.js"></script>
+</body>
+</html>
